@@ -60,8 +60,11 @@ public class RomanNumbersConverterParametrizedTest {
         // Arrange
         RomanNumbersConverter converter = new RomanNumbersConverter();
 
+        // Act
+        var result = converter.convert(romanInput);
+
         // Assert
-        assertEquals(expectedValue, converter.convert(romanInput));
+        assertEquals(expectedValue, result);
     }
 
 }

@@ -4,6 +4,6 @@ import org.apache.commons.lang3.mutable.MutableInt;
 
 import java.util.List;
 
-abstract class SumStrategy {
-    abstract int sumElements(List<RomanNumber> romanNumbers, MutableInt i);
+interface SumStrategy {
+    int sumElements(List<RomanNumber> romanNumbers, MutableInt i);
 }
